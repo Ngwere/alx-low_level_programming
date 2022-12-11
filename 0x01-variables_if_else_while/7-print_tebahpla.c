@@ -1,16 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - print 0 - 9 using putchar
+ * main - entry point
  * Return: 0 for success
  */
 int main(void)
 {
-	int n;
+	char l;
 
-	n = 0;
-	for (; n < 10; n++)
-		putchar(n%10 + '0');
+	for (l = 'z'; l >= 'a'; l--)
+		putchar(l);
 	putchar('\n');
 	return (0);
 }
