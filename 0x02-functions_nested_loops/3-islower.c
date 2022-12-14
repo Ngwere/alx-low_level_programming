@@ -14,6 +14,7 @@ int _islower(int c)
 	for (l = 'a'; l <= 'z'; l++)
 	{
 		if (c != l)
+		{
 			for (n = 0; n < 10; n++)
 			{
 				if (c % 10 == n)
@@ -21,6 +22,7 @@ int _islower(int c)
 				else
 					result = 0;
 			}
+		}
 		else
 			result = 1;
 			break;
