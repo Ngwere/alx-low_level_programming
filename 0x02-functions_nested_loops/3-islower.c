@@ -10,7 +10,6 @@ int _islower(int c)
 	char l;
 	int result;
 	int n;
-	int re;
 
 	for (l = 'a'; l <= 'z'; l++)
 	{
