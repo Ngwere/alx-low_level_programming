@@ -13,15 +13,15 @@ int _islower(int c)
 
 	for (l = 'a'; l <= 'z'; l++)
 	{
-		if (c == l)
-			result = 1;
-		else
+		if (c != l)
 			for (n = 0; n < 10; n++)
 			{
 				if (c % 10 == n)
 					result = 1;
 			}
-		result = 0;
+			result = 0;
+		else
+			result = 1;
 	}
 	return (result);
 }
