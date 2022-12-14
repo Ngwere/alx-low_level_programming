@@ -18,10 +18,11 @@ int _islower(int c)
 			{
 				if (c % 10 == n)
 					result = 1;
-			}
-			result = 0;
+				else
+					result = 0;
 		else
 			result = 1;
+			break;
 	}
 	return (result);
 }
