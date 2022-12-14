@@ -24,8 +24,10 @@ int _islower(int c)
 			}
 		}
 		else
+		{
 			result = 1;
 			break;
+		}
 	}
 	return (result);
 }
