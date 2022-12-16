@@ -19,6 +19,7 @@ int _isupper(int c)
 		else
 		{
 			r = 1;
+			break;
 		}
 	}
 	return (r);
