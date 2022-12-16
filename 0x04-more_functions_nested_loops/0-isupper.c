@@ -7,4 +7,20 @@
  */
 int _isupper(int c)
 {
+	char n;
+	int r;
+
+	for (n = 'A'; n <= 'Z'; n++)
+	{
+		if (c != n)
+		{
+			r = 0;
+		}
+		else
+		{
+			r = 1;
+		}
+	}
+	return (r);
+}
 
