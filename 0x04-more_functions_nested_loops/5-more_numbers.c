@@ -2,7 +2,7 @@
 
 /**
  * more_numbers - 10x 0 - 14
- * Return: no return
+ * Return: no return void
  */
 void more_numbers(void)
 {
