@@ -2,6 +2,7 @@
 
 /**
  * print_line - line on the terminal
+ * @n: the length of the line
  * Return: void
  */
 void print_line(int n)
