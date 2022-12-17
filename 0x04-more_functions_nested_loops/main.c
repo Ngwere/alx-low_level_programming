@@ -7,15 +7,9 @@
  */
 int main(void)
 {
-	char c;
-
-	c = '0';
-
-	printf("%c: %d\n", c, _isdigit(c));
-
-	c = 'a';
-
-	printf("%c: %d\n", c, _isdigit(c));
-	print_numbers();
+	print_triangle(2);
+	print_triangle(10);
+	print_triangle(1);
+	print_triangle(0);
 	return (0);
 }
