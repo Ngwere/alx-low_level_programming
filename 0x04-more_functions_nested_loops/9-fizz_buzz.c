@@ -4,7 +4,7 @@
  * main - entry point for fizzbuzz
  * Return: zero
  */
-void main(void)
+int main(void)
 {
 	int n;
 
@@ -25,4 +25,5 @@ void main(void)
 		else
 			printf("%d ", n);
 	}
+	return (0);
 }
