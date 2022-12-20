@@ -1,17 +1,23 @@
 #include "main.h"
 
 /**
- * _puts2 - print string to stdout
+ * puts_half - print half on new lineto stdout
  *@str: string to print
  * Return: void
  */
-void puts2(char *str)
+void puts_half(char *str)
 {
 	int c;
+	int m;
+	int i;
 
 	for (c = 0; str[c] != '\0'; c++)
+		;
+	m = c / 2;
+	while (i < m)
 	{
-		_putchar(str[c]);
-		_putchar('\n');
+		_putchar(str[i]);
+		i++;
 	}
+	_putchar('\n');
 }
