@@ -11,8 +11,10 @@ void print_array(int *a, int n)
 	int c;
 
 	for (c = 0; a[c] != '\0'; c++)
+	{
 		_putchar(a[c]);
 		if (c == n)
 			break;
+	}
 	_putchar('\n');
 }
