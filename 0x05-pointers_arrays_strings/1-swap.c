@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* reset_to_98 - change variable
+* swap_int - change variable
 * @a: pointer to the variable to be changed
 * @b: second
 * Return: void
