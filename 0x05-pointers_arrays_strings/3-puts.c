@@ -11,4 +11,5 @@ void _puts(char *str)
 
 	for (c = 0; str[c] != '\0'; c++)
 		_putchar(str[c]);
+	_putchar('\0');
 }
