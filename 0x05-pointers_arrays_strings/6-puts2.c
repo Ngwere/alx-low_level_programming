@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * puts_half - print half on new lineto stdout
+ * puts2 - print half on new lineto stdout
  *@str: string to print
  * Return: void
  */
-void puts_half(char *str)
+void puts2(char *str)
 {
 	int c;
 	int m;
