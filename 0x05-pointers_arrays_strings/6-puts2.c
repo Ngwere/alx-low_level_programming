@@ -11,5 +11,5 @@ void puts2(char *str)
 
 	for (c = 0; str[c] != '\0'; c++)
 		_putchar(str[c]);
-	_	putchar('\n');
+		_putchar('\n');
 }
