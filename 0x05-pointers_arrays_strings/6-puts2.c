@@ -9,7 +9,7 @@ void puts2(char *str)
 {
 	int c;
 	int m;
-	int i;
+	int i = 0;
 
 	for (c = 0; str[c] != '\0'; c++)
 		;
