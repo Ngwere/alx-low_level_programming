@@ -1,5 +1,4 @@
-#include "main.h"
-
+#include <stdio.h>
 /**
  * print_array - print the first n of array
  *@a: array
@@ -10,11 +9,11 @@ void print_array(int *a, int n)
 {
 	int c;
 
-	for (c = 0; a[c] != '\0'; c++)
+	for (c = 0; c < n; c++)
 	{
-		_putchar(a[c]);
-		if (c == n)
-			break;
+		printf("%d", a[c]);
+		if (c != n)
+			printf(",");
 	}
-	_putchar('\n');
+	printf("\n");
 }
