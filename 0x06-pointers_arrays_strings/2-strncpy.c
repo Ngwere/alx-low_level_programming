@@ -1,21 +1,19 @@
 #include "main.h"
 
 /**
- * *_strncat - concatenate strings
+ * *_strncpy - copy strings
  * @dest: destination string
  * @src: source string
- * @n: number of string to concat
+ * @n: number of string to copy
  * Return: dest
  */
-char *_strncat(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
-	int m;
 	int i;
 
-	for (m = 0; dest[m] != '\0'; m++)
-		;
-	for (i = 0; i < n && src[i] != '\0'; i++)
-		dest[m + i] = src[i];
-	dest[m + i] = '\0';
+	for (i = 0; i < n && *(src + i); i++)
+		dest[i] = src[i];
+	for (; i < n; i++)
+		dest[i] = '\0';
 	return (dest);
 }
